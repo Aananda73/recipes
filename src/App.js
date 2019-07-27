@@ -26,14 +26,14 @@ const App = () => {
   };
 
   const getSearch = e => {
-    e.preventdefault();
+    e.preventDefault();
     setQuery(search);
     setSearch("");
   };
 
   return (
     <div className="App">
-      <form onSumbit={getSearch} className="search-form">
+      <form onSubmit={getSearch} className="search-form">
         <input
           type="text"
           className="search-bar"

@@ -8,6 +8,7 @@
   background: white;
   align-items: center;
   min-width: 40%;
+  background-color: tomato;
 }
 .image {
   border-radius: 50%;
